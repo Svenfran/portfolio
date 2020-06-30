@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sven Haider | Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div id="home" class="banner-img">
+      <div id="navbar-wrapper">
+        <div class="navbar-name">
+          <a href="#home">S | H</a>
+        </div>
+        <div class="navbar-list">
+          <ul>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio">
+      <h2>PORTFOLIO</h2>
+    </div>
+
+    <div id="about">
+      <h2>ABOUT</h2>
+    </div>
+
+    <div id="skills">
+      <h2>SKILLS</h2>
+    </div>
+
+    <div id="contact">
+      <h2>CONTACT</h2>
+    </div>
+
+  <script>
+    const navbar = document.querySelector('#navbar-wrapper');
+    window.onscroll = () => { 
+      if (document.documentElement.scrollTop >= 50 ) {
+        navbar.style.background = "black";
+        navbar.style.transition = '0.8s ease'
+        // navbar.classList.add("nav-black");
+        // navbar.classList.remove("nav-transparent");
+      } 
+      else {
+        navbar.style.background = "transparent";
+        // navbar.classList.add("nav-transparent");
+        // navbar.classList.remove("nav-black");
+      }
+    };
+  </script>
+
+  </body>
+</html>
