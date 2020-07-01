@@ -60,7 +60,21 @@
     </div>
 
     <div id="about">
-      <h2>ABOUT</h2>
+      <h2>ABOUT MYSELF</h2>
+      <img src="images/sven.jpg" alt="picture of myself">
+      <div class="main-container">
+        <div class="about-text">
+          <div class="text-box">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius nunc eget nulla suscipit, a tincidunt erat ullamcorper. Cras ut lectus vitae ante lobortis efficitur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent vel risus ac quam vestibulum lobortis.
+          </div>
+          <div class="text-box">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius nunc eget nulla suscipit, a tincidunt erat ullamcorper. Cras ut lectus vitae ante lobortis efficitur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent vel risus ac quam vestibulum lobortis.
+          </div>
+          <div class="text-box">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius nunc eget nulla suscipit, a tincidunt erat ullamcorper. Cras ut lectus vitae ante lobortis efficitur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent vel risus ac quam vestibulum lobortis.
+          </div>
+        </div>
+      </div>
     </div>
 
     <div id="skills">
@@ -72,21 +86,19 @@
     </div>
 
   <script>
+    // Navbar Scroll-Effect
     const navbar = document.querySelector('#navbar-wrapper');
     window.onscroll = () => { 
       if (document.documentElement.scrollTop >= 50 ) {
         navbar.style.background = "black";
         navbar.style.transition = '0.8s ease'
-        // navbar.classList.add("nav-black");
-        // navbar.classList.remove("nav-transparent");
       } 
       else {
         navbar.style.background = "transparent";
-        // navbar.classList.add("nav-transparent");
-        // navbar.classList.remove("nav-black");
       }
     };
 
+    // Smooth scrolling
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
         e.preventDefault();

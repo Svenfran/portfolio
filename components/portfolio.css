@@ -2,7 +2,7 @@ h2 {
   color: rgb(145, 145, 145);
   text-align: center;
   letter-spacing: 10px;
-  margin: 50px 0px;
+  margin: 100px 0px 50px 0px;
 }
 
 p {
@@ -14,6 +14,7 @@ p {
 
 .main-container {
   display: flex;
+  justify-content: center;
 }
 
 .cards {
@@ -25,6 +26,7 @@ p {
 
 .card {
   position: relative;
+  overflow: hidden;
   width: 400px;
   /* height: 300px; */
   display: flex;
@@ -52,8 +54,8 @@ p {
   overflow: hidden;
   /* opacity: 0; */
   transition: .8s ease;
-  background-color: #008CBA;
-  /* background-color: black; */
+  /* background-color: #008CBA; */
+  background-color: black;
 }
 
 .text {
@@ -70,4 +72,27 @@ p {
 .card:hover .overlay {
   opacity: .9;
   height: 100%;
+}
+
+.about-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin: 0 auto;
+}
+
+.text-box {
+  color: #222;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#about img {
+  display: flex;
+  width: 250px;
+  border-radius: 50%;
+  margin: 0 auto;
 }
