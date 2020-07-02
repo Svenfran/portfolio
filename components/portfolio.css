@@ -8,7 +8,7 @@ h2 {
 p {
   color: #222;
   text-align: center;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   margin-bottom: 50px;
 }
 
@@ -36,6 +36,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 .card img {
@@ -63,7 +64,8 @@ p {
 }
 
 .text {
-  color: rgb(145, 145, 145);
+  color: white;
+  opacity: .8;
   font-size: 20px;
   position: absolute;
   overflow: hidden;
@@ -74,7 +76,8 @@ p {
 }
 
 .info {
-  color: rgb(145, 145, 145);
+  color: white;
+  opacity: .8;
   font-size: 12px;
   position: absolute;
   overflow: hidden;
@@ -85,7 +88,8 @@ p {
 }
 
 .description {
-  color: rgb(145, 145, 145);
+  color: white;
+  opacity: .8;
   width: 100%;
   text-align: center;
   font-size: 16px;
