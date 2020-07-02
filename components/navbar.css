@@ -65,7 +65,6 @@
 }
 
 .navbar-list li {
-
   margin-right: 80px;
 }
 
@@ -78,5 +77,21 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.banner-text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+}
+
+.banner-text h2 {
+  color: white;
+}
+
+.banner-text p {
+  color: white;
+}
+
 
 /* https://images.unsplash.com/photo-1497493292307-31c376b6e479?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80 */

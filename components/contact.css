@@ -1,0 +1,62 @@
+/* .line {
+  width: 80vw;
+  background: rgb(145, 145, 145);
+  height: 1px;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto 0;
+} */
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact p {
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #222;
+  letter-spacing: 2px;
+}
+
+.contact i {
+  color: #222;
+  font-size: 24px;
+  margin-right: 16px;
+}
+
+.contact-box {
+  width: 50vw;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.resume a {
+  text-decoration: none;
+  color: #222;
+  letter-spacing: 2px;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 150px;
+  border: 1px solid rgb(145, 145, 145);
+  border-radius: 4px;
+  padding: 8px;
+  width: fit-content;
+}
+
+.resume a:hover {
+  /* background: black; */
+  /* color: white; */
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+}
