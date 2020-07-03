@@ -46,3 +46,9 @@
   background: #d90429;
   transform: rotateY(180deg);
 }
+
+@media(max-width: 768px) {
+  .skill-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

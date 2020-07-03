@@ -32,7 +32,6 @@ p {
   position: relative;
   overflow: hidden;
   width: 400px;
-  /* height: 300px; */
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -131,12 +130,6 @@ p {
 }
 
 /* Media queries */
-
-@media(max-width: 992px) {
-  .cards, .about-text {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
 
 @media(max-width: 768px) {
   .cards, .about-text {
