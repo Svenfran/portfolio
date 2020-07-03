@@ -118,7 +118,7 @@ p {
   text-align: justify;
   display: flex;
   padding: 12px;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-around;
 }
 
