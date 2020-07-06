@@ -22,8 +22,10 @@
 }
 
 .contact-box {
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: 1fr 1fr;
   width: 50vw;
-  display: flex;
   justify-content: space-around;
   margin-top: 50px;
   margin-bottom: 100px;
