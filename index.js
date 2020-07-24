@@ -77,5 +77,5 @@ const insertSkills = () => {
 
 
 navSlide();
-update();
 insertSkills();
+update();
