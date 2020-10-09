@@ -14,19 +14,9 @@ window.onscroll = () => {
 const update = () => {
   const newDate = new Date();
   const year = newDate.getFullYear();
-  const month = newDate.getMonth() + 1;
-  const months = ['January', 'February', 'March',
-                  'April', 'May', 'June', 'July',
-                  'August', 'September', 'October',
-                  'November', 'December'
-                ];
-
-  for (let i = 0; i < months.length; i++) {
-    if ((i + 1) === month) {
-      document.querySelector('.footer-copyright').innerText = `Last update ${months[i]} ${year}`;
-      break;
-    };
-  };
+  const month = newDate.getMonth();
+  const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  document.querySelector('.footer-copyright').innerText = `Last update ${months[month]} ${year}`;
 };
 
 // mobile navbar
