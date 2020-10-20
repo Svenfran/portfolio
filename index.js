@@ -65,7 +65,18 @@ const insertSkills = () => {
   });
 };
 
+// pagecount
+// const countEl = document.getElementById('count');
+const updateVisitCount = () => {
+  fetch('https://api.countapi.xyz/update/sven-haider/portfolio/?amount=1')
+    .then(res => res.json())
+    .then(res => {
+      // countEl.innerHTML = res.value;
+      console.log('Pagecount: ' + res.value);
+    });
+}
 
 navSlide();
 insertSkills();
 update();
+updateVisitCount();
