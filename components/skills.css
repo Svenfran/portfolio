@@ -1,6 +1,6 @@
 .skill-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 16px;
   margin: 0 auto;
 }
@@ -35,7 +35,12 @@
   transition-duration: .5s;
 }
 
-.skill-box:hover {
+/* .skill-box:hover {
+  transform: rotateY(180deg);
+  transition-duration: .5s;
+} */
+
+.main-box:hover .skill-box {
   transform: rotateY(180deg);
   transition-duration: .5s;
 }
